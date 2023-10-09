@@ -1,0 +1,9 @@
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/uninstall.dir
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/pkg_collect_pointclouds_uninstall.dir
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/test.dir
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/edit_cache.dir
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/rebuild_cache.dir
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/list_install_components.dir
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/install.dir
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/install/local.dir
+/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds/CMakeFiles/install/strip.dir

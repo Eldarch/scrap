@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000454] (pkg_collect_pointclouds) JobQueued: {'identifier': 'pkg_collect_pointclouds', 'dependencies': OrderedDict()}
+[0.014286] (pkg_collect_pointclouds) JobStarted: {'identifier': 'pkg_collect_pointclouds'}
+[0.082183] (-) TimerEvent: {}
+[0.184134] (-) TimerEvent: {}
+[0.209045] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'cmake'}
+[0.248325] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'build'}
+[0.255343] (pkg_collect_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', '--', '-j4', '-l4'], 'cwd': '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mines'), ('OLDPWD', '/home/mines/mines_ws/captureData/scrap/pkg_collect_pointclouds'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble'), ('PWD', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble')]), 'shell': False}
+[0.313336] (-) TimerEvent: {}
+[0.414494] (-) TimerEvent: {}
+[0.515346] (-) TimerEvent: {}
+[0.619104] (-) TimerEvent: {}
+[0.730605] (-) TimerEvent: {}
+[0.756720] (pkg_collect_pointclouds) CommandEnded: {'returncode': 0}
+[0.830756] (-) TimerEvent: {}
+[0.941088] (-) TimerEvent: {}
+[1.045339] (-) TimerEvent: {}
+[1.049370] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'install'}
+[1.119477] (pkg_collect_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'], 'cwd': '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mines'), ('OLDPWD', '/home/mines/mines_ws/captureData/scrap/pkg_collect_pointclouds'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble'), ('PWD', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble')]), 'shell': False}
+[1.145675] (-) TimerEvent: {}
+[1.197758] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.253757] (-) TimerEvent: {}
+[1.293696] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/package_run_dependencies/pkg_collect_pointclouds\n'}
+[1.354232] (-) TimerEvent: {}
+[1.443387] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/parent_prefix_path/pkg_collect_pointclouds\n'}
+[1.454443] (-) TimerEvent: {}
+[1.476887] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/ament_prefix_path.sh\n'}
+[1.509151] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/ament_prefix_path.dsv\n'}
+[1.622984] (-) TimerEvent: {}
+[1.676965] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/path.sh\n'}
+[1.724661] (-) TimerEvent: {}
+[1.743078] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/path.dsv\n'}
+[1.785599] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.bash\n'}
+[1.804142] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.sh\n'}
+[1.824718] (-) TimerEvent: {}
+[1.844725] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.zsh\n'}
+[1.876772] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.dsv\n'}
+[1.901293] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.dsv\n'}
+[1.925514] (-) TimerEvent: {}
+[2.026550] (-) TimerEvent: {}
+[2.068669] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/packages/pkg_collect_pointclouds\n'}
+[2.120716] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/cmake/pkg_collect_pointcloudsConfig.cmake\n'}
+[2.126988] (-) TimerEvent: {}
+[2.141725] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/cmake/pkg_collect_pointcloudsConfig-version.cmake\n'}
+[2.171123] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.xml\n'}
+[2.181649] (pkg_collect_pointclouds) CommandEnded: {'returncode': 0}
+[2.233736] (-) TimerEvent: {}
+[2.337939] (-) TimerEvent: {}
+[2.454482] (-) TimerEvent: {}
+[2.555625] (-) TimerEvent: {}
+[2.657527] (-) TimerEvent: {}
+[2.763690] (-) TimerEvent: {}
+[2.864270] (-) TimerEvent: {}
+[2.964951] (-) TimerEvent: {}
+[3.068332] (-) TimerEvent: {}
+[3.169082] (-) TimerEvent: {}
+[3.284598] (-) TimerEvent: {}
+[3.386313] (-) TimerEvent: {}
+[3.487655] (-) TimerEvent: {}
+[3.595294] (-) TimerEvent: {}
+[3.697269] (-) TimerEvent: {}
+[3.805106] (-) TimerEvent: {}
+[3.910450] (-) TimerEvent: {}
+[4.027006] (-) TimerEvent: {}
+[4.037701] (pkg_collect_pointclouds) JobEnded: {'identifier': 'pkg_collect_pointclouds', 'rc': 0}
+[4.068956] (-) EventReactorShutdown: {}

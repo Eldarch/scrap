@@ -1,0 +1,20 @@
+[0.759s] Invoking command in '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds -- -j4 -l4
+[1.078s] Invoked command in '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds -- -j4 -l4
+[1.584s] Invoking command in '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds
+[1.616s] -- Install configuration: ""
+[1.734s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/package_run_dependencies/pkg_collect_pointclouds
+[1.796s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/parent_prefix_path/pkg_collect_pointclouds
+[1.866s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/ament_prefix_path.sh
+[1.888s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/ament_prefix_path.dsv
+[1.903s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/path.sh
+[1.924s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/path.dsv
+[1.960s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.bash
+[1.996s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.sh
+[2.021s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.zsh
+[2.104s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.dsv
+[2.138s] -- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.dsv
+[2.633s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/packages/pkg_collect_pointclouds
+[2.736s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/cmake/pkg_collect_pointcloudsConfig.cmake
+[2.781s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/cmake/pkg_collect_pointcloudsConfig-version.cmake
+[2.805s] -- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.xml
+[2.870s] Invoked command in '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds

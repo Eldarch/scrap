@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.018238] (pkg_collect_pointclouds) JobQueued: {'identifier': 'pkg_collect_pointclouds', 'dependencies': OrderedDict()}
+[0.023337] (pkg_collect_pointclouds) JobStarted: {'identifier': 'pkg_collect_pointclouds'}
+[0.075137] (-) TimerEvent: {}
+[0.170801] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'cmake'}
+[0.227337] (-) TimerEvent: {}
+[0.293919] (pkg_collect_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '/home/mines/mines_ws/captureData/scrap/pkg_collect_pointclouds', '-DCMAKE_INSTALL_PREFIX=/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds'], 'cwd': '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mines'), ('OLDPWD', '/home/mines/mines_ws/captureData'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.327574] (-) TimerEvent: {}
+[0.434671] (-) TimerEvent: {}
+[0.550387] (-) TimerEvent: {}
+[0.655006] (-) TimerEvent: {}
+[0.760388] (-) TimerEvent: {}
+[0.861604] (-) TimerEvent: {}
+[0.965027] (-) TimerEvent: {}
+[1.068036] (-) TimerEvent: {}
+[1.175620] (-) TimerEvent: {}
+[1.294182] (-) TimerEvent: {}
+[1.409297] (-) TimerEvent: {}
+[1.436860] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.509454] (-) TimerEvent: {}
+[1.625372] (-) TimerEvent: {}
+[1.732227] (-) TimerEvent: {}
+[1.855619] (-) TimerEvent: {}
+[1.970353] (-) TimerEvent: {}
+[2.074209] (-) TimerEvent: {}
+[2.175749] (-) TimerEvent: {}
+[2.276678] (-) TimerEvent: {}
+[2.390185] (-) TimerEvent: {}
+[2.495888] (-) TimerEvent: {}
+[2.598662] (-) TimerEvent: {}
+[2.636350] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.700494] (-) TimerEvent: {}
+[2.803830] (-) TimerEvent: {}
+[2.914031] (-) TimerEvent: {}
+[2.930410] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.014814] (-) TimerEvent: {}
+[3.116901] (-) TimerEvent: {}
+[3.221322] (-) TimerEvent: {}
+[3.324232] (-) TimerEvent: {}
+[3.431844] (-) TimerEvent: {}
+[3.545855] (-) TimerEvent: {}
+[3.647626] (-) TimerEvent: {}
+[3.749647] (-) TimerEvent: {}
+[3.850928] (-) TimerEvent: {}
+[3.958992] (-) TimerEvent: {}
+[4.060755] (-) TimerEvent: {}
+[4.162070] (-) TimerEvent: {}
+[4.263244] (-) TimerEvent: {}
+[4.364686] (-) TimerEvent: {}
+[4.468166] (-) TimerEvent: {}
+[4.571390] (-) TimerEvent: {}
+[4.673026] (-) TimerEvent: {}
+[4.774794] (-) TimerEvent: {}
+[4.796350] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.874980] (-) TimerEvent: {}
+[4.891349] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.892545] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.895076] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.975735] (-) TimerEvent: {}
+[5.067861] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.075858] (-) TimerEvent: {}
+[5.186632] (-) TimerEvent: {}
+[5.297866] (-) TimerEvent: {}
+[5.403728] (-) TimerEvent: {}
+[5.510948] (-) TimerEvent: {}
+[5.612025] (-) TimerEvent: {}
+[5.719360] (-) TimerEvent: {}
+[5.822540] (-) TimerEvent: {}
+[5.924391] (-) TimerEvent: {}
+[6.026629] (-) TimerEvent: {}
+[6.139106] (-) TimerEvent: {}
+[6.240501] (-) TimerEvent: {}
+[6.344742] (-) TimerEvent: {}
+[6.448315] (-) TimerEvent: {}
+[6.550444] (-) TimerEvent: {}
+[6.652282] (-) TimerEvent: {}
+[6.754206] (-) TimerEvent: {}
+[6.856008] (-) TimerEvent: {}
+[6.957036] (-) TimerEvent: {}
+[6.975193] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.057230] (-) TimerEvent: {}
+[7.060417] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.061351] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.063747] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.157903] (-) TimerEvent: {}
+[7.243086] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.259143] (-) TimerEvent: {}
+[7.361745] (-) TimerEvent: {}
+[7.469271] (-) TimerEvent: {}
+[7.580047] (-) TimerEvent: {}
+[7.692839] (-) TimerEvent: {}
+[7.793795] (-) TimerEvent: {}
+[7.894753] (-) TimerEvent: {}
+[7.945275] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[7.994789] (-) TimerEvent: {}
+[8.096399] (-) TimerEvent: {}
+[8.198795] (-) TimerEvent: {}
+[8.299387] (-) TimerEvent: {}
+[8.400579] (-) TimerEvent: {}
+[8.503503] (-) TimerEvent: {}
+[8.605498] (-) TimerEvent: {}
+[8.670398] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.705631] (-) TimerEvent: {}
+[8.806900] (-) TimerEvent: {}
+[8.913697] (-) TimerEvent: {}
+[9.016906] (-) TimerEvent: {}
+[9.118405] (-) TimerEvent: {}
+[9.218989] (-) TimerEvent: {}
+[9.319776] (-) TimerEvent: {}
+[9.421639] (-) TimerEvent: {}
+[9.522232] (-) TimerEvent: {}
+[9.623118] (-) TimerEvent: {}
+[9.730193] (-) TimerEvent: {}
+[9.831322] (-) TimerEvent: {}
+[9.933023] (-) TimerEvent: {}
+[10.036656] (-) TimerEvent: {}
+[10.079202] (pkg_collect_pointclouds) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.136787] (-) TimerEvent: {}
+[10.244102] (-) TimerEvent: {}
+[10.346458] (-) TimerEvent: {}
+[10.448074] (-) TimerEvent: {}
+[10.553576] (-) TimerEvent: {}
+[10.664608] (-) TimerEvent: {}
+[10.767032] (-) TimerEvent: {}
+[10.779517] (pkg_collect_pointclouds) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.867200] (-) TimerEvent: {}
+[10.970185] (-) TimerEvent: {}
+[11.075190] (-) TimerEvent: {}
+[11.125439] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.177031] (-) TimerEvent: {}
+[11.279334] (-) TimerEvent: {}
+[11.391499] (-) TimerEvent: {}
+[11.492196] (-) TimerEvent: {}
+[11.592878] (-) TimerEvent: {}
+[11.694082] (-) TimerEvent: {}
+[11.803256] (-) TimerEvent: {}
+[11.908598] (-) TimerEvent: {}
+[12.011051] (-) TimerEvent: {}
+[12.073885] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Generating done\n'}
+[12.111180] (-) TimerEvent: {}
+[12.214800] (-) TimerEvent: {}
+[12.314193] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Build files have been written to: /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds\n'}
+[12.315287] (-) TimerEvent: {}
+[12.325907] (pkg_collect_pointclouds) CommandEnded: {'returncode': 0}
+[12.330841] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'build'}
+[12.335715] (pkg_collect_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', '--', '-j4', '-l4'], 'cwd': '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mines'), ('OLDPWD', '/home/mines/mines_ws/captureData'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.415980] (-) TimerEvent: {}
+[12.518840] (-) TimerEvent: {}
+[12.623977] (-) TimerEvent: {}
+[12.748619] (-) TimerEvent: {}
+[12.853161] (-) TimerEvent: {}
+[12.896838] (pkg_collect_pointclouds) CommandEnded: {'returncode': 0}
+[12.953856] (-) TimerEvent: {}
+[13.026070] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'install'}
+[13.046416] (pkg_collect_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'], 'cwd': '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mines'), ('OLDPWD', '/home/mines/mines_ws/captureData'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.062576] (-) TimerEvent: {}
+[13.121820] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.167071] (-) TimerEvent: {}
+[13.274511] (-) TimerEvent: {}
+[13.300623] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/package_run_dependencies/pkg_collect_pointclouds\n'}
+[13.375754] (-) TimerEvent: {}
+[13.476710] (-) TimerEvent: {}
+[13.578242] (-) TimerEvent: {}
+[13.598086] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/parent_prefix_path/pkg_collect_pointclouds\n'}
+[13.680876] (-) TimerEvent: {}
+[13.821559] (-) TimerEvent: {}
+[13.882917] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/ament_prefix_path.sh\n'}
+[13.921834] (-) TimerEvent: {}
+[14.033586] (-) TimerEvent: {}
+[14.072776] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/ament_prefix_path.dsv\n'}
+[14.133749] (-) TimerEvent: {}
+[14.231088] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/path.sh\n'}
+[14.246207] (-) TimerEvent: {}
+[14.333299] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/path.dsv\n'}
+[14.347089] (-) TimerEvent: {}
+[14.447980] (-) TimerEvent: {}
+[14.454870] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.bash\n'}
+[14.555072] (-) TimerEvent: {}
+[14.642572] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.sh\n'}
+[14.656697] (-) TimerEvent: {}
+[14.757843] (-) TimerEvent: {}
+[14.863397] (-) TimerEvent: {}
+[14.967851] (-) TimerEvent: {}
+[15.003197] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.zsh\n'}
+[15.067964] (-) TimerEvent: {}
+[15.176977] (-) TimerEvent: {}
+[15.280865] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.dsv\n'}
+[15.282511] (-) TimerEvent: {}
+[15.385636] (-) TimerEvent: {}
+[15.493219] (-) TimerEvent: {}
+[15.547388] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.dsv\n'}
+[15.593402] (-) TimerEvent: {}
+[15.714082] (-) TimerEvent: {}
+[15.830729] (-) TimerEvent: {}
+[15.915778] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/packages/pkg_collect_pointclouds\n'}
+[15.934275] (-) TimerEvent: {}
+[16.047223] (-) TimerEvent: {}
+[16.106026] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/cmake/pkg_collect_pointcloudsConfig.cmake\n'}
+[16.147397] (-) TimerEvent: {}
+[16.248159] (-) TimerEvent: {}
+[16.333967] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/cmake/pkg_collect_pointcloudsConfig-version.cmake\n'}
+[16.348269] (-) TimerEvent: {}
+[16.456941] (-) TimerEvent: {}
+[16.542397] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.xml\n'}
+[16.556784] (-) TimerEvent: {}
+[16.611476] (pkg_collect_pointclouds) CommandEnded: {'returncode': 0}
+[16.665217] (-) TimerEvent: {}
+[16.781453] (-) TimerEvent: {}
+[16.893949] (-) TimerEvent: {}
+[16.996028] (-) TimerEvent: {}
+[17.099511] (-) TimerEvent: {}
+[17.203404] (-) TimerEvent: {}
+[17.304566] (-) TimerEvent: {}
+[17.405557] (-) TimerEvent: {}
+[17.506652] (-) TimerEvent: {}
+[17.614166] (-) TimerEvent: {}
+[17.715985] (-) TimerEvent: {}
+[17.822995] (-) TimerEvent: {}
+[17.929975] (-) TimerEvent: {}
+[18.030920] (-) TimerEvent: {}
+[18.133549] (-) TimerEvent: {}
+[18.237369] (-) TimerEvent: {}
+[18.341656] (-) TimerEvent: {}
+[18.442212] (-) TimerEvent: {}
+[18.543755] (-) TimerEvent: {}
+[18.645842] (-) TimerEvent: {}
+[18.731142] (pkg_collect_pointclouds) JobEnded: {'identifier': 'pkg_collect_pointclouds', 'rc': 0}
+[18.739300] (-) EventReactorShutdown: {}

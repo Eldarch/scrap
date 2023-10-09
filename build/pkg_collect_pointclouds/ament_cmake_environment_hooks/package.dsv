@@ -1,0 +1,4 @@
+source;share/pkg_collect_pointclouds/local_setup.bash
+source;share/pkg_collect_pointclouds/local_setup.dsv
+source;share/pkg_collect_pointclouds/local_setup.sh
+source;share/pkg_collect_pointclouds/local_setup.zsh
