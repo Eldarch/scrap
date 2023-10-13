@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000936] (my_python_pkg) JobQueued: {'identifier': 'my_python_pkg', 'dependencies': OrderedDict()}
+[0.001742] (my_python_pkg) JobStarted: {'identifier': 'my_python_pkg'}
+[0.098166] (-) TimerEvent: {}
+[0.198864] (-) TimerEvent: {}
+[0.299538] (-) TimerEvent: {}
+[0.400252] (-) TimerEvent: {}
+[0.500933] (-) TimerEvent: {}
+[0.601416] (-) TimerEvent: {}
+[0.702065] (-) TimerEvent: {}
+[0.802682] (-) TimerEvent: {}
+[0.903298] (-) TimerEvent: {}
+[1.003866] (-) TimerEvent: {}
+[1.104539] (-) TimerEvent: {}
+[1.205094] (-) TimerEvent: {}
+[1.305633] (-) TimerEvent: {}
+[1.406432] (-) TimerEvent: {}
+[1.507662] (-) TimerEvent: {}
+[1.608347] (-) TimerEvent: {}
+[1.709005] (-) TimerEvent: {}
+[1.809650] (-) TimerEvent: {}
+[1.910292] (-) TimerEvent: {}
+[1.953713] (my_python_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/my_python_pkg', 'build', '--build-base', '/home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/build', 'install', '--record', '/home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mines', 'OLDPWD': '/home/mines/mines_ws/captureData/scrap', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/mines/mines_ws/captureData/scrap/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '99', 'AMENT_PREFIX_PATH': '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble', 'PWD': '/home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/prefix_override:/home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds'}, 'shell': False}
+[2.010394] (-) TimerEvent: {}
+[2.110864] (-) TimerEvent: {}
+[2.211415] (-) TimerEvent: {}
+[2.311884] (-) TimerEvent: {}
+[2.412524] (-) TimerEvent: {}
+[2.513182] (-) TimerEvent: {}
+[2.613757] (-) TimerEvent: {}
+[2.676254] (my_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.682376] (my_python_pkg) StdoutLine: {'line': b'creating ../build/my_python_pkg/my_python_pkg.egg-info\n'}
+[2.685870] (my_python_pkg) StdoutLine: {'line': b'writing ../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO\n'}
+[2.694272] (my_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt\n'}
+[2.700146] (my_python_pkg) StdoutLine: {'line': b'writing entry points to ../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt\n'}
+[2.704671] (my_python_pkg) StdoutLine: {'line': b'writing requirements to ../build/my_python_pkg/my_python_pkg.egg-info/requires.txt\n'}
+[2.708128] (my_python_pkg) StdoutLine: {'line': b'writing top-level names to ../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt\n'}
+[2.713886] (-) TimerEvent: {}
+[2.715425] (my_python_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.747484] (my_python_pkg) StdoutLine: {'line': b"reading manifest file '../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.797260] (my_python_pkg) StdoutLine: {'line': b"writing manifest file '../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.800753] (my_python_pkg) StdoutLine: {'line': b'running build\n'}
+[2.801631] (my_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.806467] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/build\n'}
+[2.808460] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/build/lib\n'}
+[2.811047] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[2.813957] (-) TimerEvent: {}
+[2.820153] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/__init__.py -> /home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[2.832523] (my_python_pkg) StdoutLine: {'line': b'running install\n'}
+[2.856537] (my_python_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.857867] (my_python_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.859120] (my_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.878682] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg\n'}
+[2.894460] (my_python_pkg) StdoutLine: {'line': b'copying /home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg/__init__.py -> /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg\n'}
+[2.914086] (-) TimerEvent: {}
+[2.924554] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[2.954667] (my_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.964618] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/share/ament_index\n'}
+[2.966986] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/share/ament_index/resource_index\n'}
+[2.969857] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/share/ament_index/resource_index/packages\n'}
+[2.979405] (my_python_pkg) StdoutLine: {'line': b'copying resource/my_python_pkg -> /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/share/ament_index/resource_index/packages\n'}
+[2.999481] (my_python_pkg) StdoutLine: {'line': b'copying package.xml -> /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/share/my_python_pkg\n'}
+[3.010525] (my_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.014183] (-) TimerEvent: {}
+[3.027059] (my_python_pkg) StdoutLine: {'line': b'Copying ../build/my_python_pkg/my_python_pkg.egg-info to /home/mines/mines_ws/captureData/scrap/ros2_ws/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info\n'}
+[3.114341] (-) TimerEvent: {}
+[3.214940] (-) TimerEvent: {}
+[3.252177] (my_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.315179] (-) TimerEvent: {}
+[3.325277] (my_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mines/mines_ws/captureData/scrap/ros2_ws/build/my_python_pkg/install.log'\n"}
+[3.361043] (my_python_pkg) CommandEnded: {'returncode': 0}
+[3.415328] (-) TimerEvent: {}
+[3.516064] (-) TimerEvent: {}
+[3.574522] (my_python_pkg) JobEnded: {'identifier': 'my_python_pkg', 'rc': 0}
+[3.581740] (-) EventReactorShutdown: {}

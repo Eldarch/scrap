@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000977] (my_python_pkg) JobQueued: {'identifier': 'my_python_pkg', 'dependencies': OrderedDict()}
+[0.001944] (pkg_collect_pointclouds) JobQueued: {'identifier': 'pkg_collect_pointclouds', 'dependencies': OrderedDict()}
+[0.002467] (my_python_pkg) JobStarted: {'identifier': 'my_python_pkg'}
+[0.097241] (-) TimerEvent: {}
+[0.100103] (pkg_collect_pointclouds) JobStarted: {'identifier': 'pkg_collect_pointclouds'}
+[0.197356] (-) TimerEvent: {}
+[0.297906] (-) TimerEvent: {}
+[0.398563] (-) TimerEvent: {}
+[0.499211] (-) TimerEvent: {}
+[0.531081] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'cmake'}
+[0.550246] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'build'}
+[0.554640] (pkg_collect_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', '--', '-j4', '-l4'], 'cwd': '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mines'), ('OLDPWD', '/home/mines/mines_ws/captureData/scrap/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble'), ('PWD', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble')]), 'shell': False}
+[0.599355] (-) TimerEvent: {}
+[0.657812] (pkg_collect_pointclouds) CommandEnded: {'returncode': 0}
+[0.693347] (pkg_collect_pointclouds) JobProgress: {'identifier': 'pkg_collect_pointclouds', 'progress': 'install'}
+[0.699519] (-) TimerEvent: {}
+[0.706392] (pkg_collect_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'], 'cwd': '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mines'), ('OLDPWD', '/home/mines/mines_ws/captureData/scrap/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble'), ('PWD', '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble')]), 'shell': False}
+[0.717312] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.742561] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/package_run_dependencies/pkg_collect_pointclouds\n'}
+[0.775344] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/parent_prefix_path/pkg_collect_pointclouds\n'}
+[0.790597] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/ament_prefix_path.sh\n'}
+[0.799663] (-) TimerEvent: {}
+[0.812430] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/ament_prefix_path.dsv\n'}
+[0.829322] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/path.sh\n'}
+[0.849780] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/environment/path.dsv\n'}
+[0.867558] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.bash\n'}
+[0.885303] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.sh\n'}
+[0.899784] (-) TimerEvent: {}
+[0.902991] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.zsh\n'}
+[0.923302] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/local_setup.dsv\n'}
+[0.940662] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.dsv\n'}
+[0.999908] (-) TimerEvent: {}
+[1.006995] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/ament_index/resource_index/packages/pkg_collect_pointclouds\n'}
+[1.026962] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/cmake/pkg_collect_pointcloudsConfig.cmake\n'}
+[1.042549] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/cmake/pkg_collect_pointcloudsConfig-version.cmake\n'}
+[1.059898] (pkg_collect_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.xml\n'}
+[1.069307] (pkg_collect_pointclouds) CommandEnded: {'returncode': 0}
+[1.100035] (-) TimerEvent: {}
+[1.200569] (-) TimerEvent: {}
+[1.301059] (-) TimerEvent: {}
+[1.401567] (-) TimerEvent: {}
+[1.502129] (-) TimerEvent: {}
+[1.590607] (pkg_collect_pointclouds) JobEnded: {'identifier': 'pkg_collect_pointclouds', 'rc': 0}
+[1.602265] (-) TimerEvent: {}
+[1.605899] (my_python_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_python_pkg', 'build', '--build-base', '/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build', 'install', '--record', '/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mines', 'OLDPWD': '/home/mines/mines_ws/captureData/scrap/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/mines/mines_ws/captureData/scrap/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '99', 'AMENT_PREFIX_PATH': '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds:/opt/ros/humble', 'PWD': '/home/mines/mines_ws/captureData/scrap/build/my_python_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/prefix_override:/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds'}, 'shell': False}
+[1.702422] (-) TimerEvent: {}
+[1.802949] (-) TimerEvent: {}
+[1.903514] (-) TimerEvent: {}
+[2.003957] (-) TimerEvent: {}
+[2.104462] (-) TimerEvent: {}
+[2.205103] (-) TimerEvent: {}
+[2.305637] (-) TimerEvent: {}
+[2.319565] (my_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.325257] (my_python_pkg) StdoutLine: {'line': b'creating ../../build/my_python_pkg/my_python_pkg.egg-info\n'}
+[2.329003] (my_python_pkg) StdoutLine: {'line': b'writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO\n'}
+[2.338680] (my_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt\n'}
+[2.344120] (my_python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt\n'}
+[2.348727] (my_python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt\n'}
+[2.352339] (my_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt\n'}
+[2.357964] (my_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.384047] (my_python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.405759] (-) TimerEvent: {}
+[2.435877] (my_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.438690] (my_python_pkg) StdoutLine: {'line': b'running build\n'}
+[2.439488] (my_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.444677] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build\n'}
+[2.446273] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build/lib\n'}
+[2.448611] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[2.457154] (my_python_pkg) StdoutLine: {'line': b'copying my_python_pkg/__init__.py -> /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build/lib/my_python_pkg\n'}
+[2.468841] (my_python_pkg) StdoutLine: {'line': b'running install\n'}
+[2.469584] (my_python_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.470327] (my_python_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.471118] (my_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.489145] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg\n'}
+[2.504961] (my_python_pkg) StdoutLine: {'line': b'copying /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build/lib/my_python_pkg/__init__.py -> /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg\n'}
+[2.505837] (-) TimerEvent: {}
+[2.536982] (my_python_pkg) StdoutLine: {'line': b'byte-compiling /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[2.566224] (my_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.573932] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/ament_index\n'}
+[2.575912] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/ament_index/resource_index\n'}
+[2.578347] (my_python_pkg) StdoutLine: {'line': b'creating /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/ament_index/resource_index/packages\n'}
+[2.587297] (my_python_pkg) StdoutLine: {'line': b'copying resource/my_python_pkg -> /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/ament_index/resource_index/packages\n'}
+[2.605974] (-) TimerEvent: {}
+[2.608360] (my_python_pkg) StdoutLine: {'line': b'copying package.xml -> /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg\n'}
+[2.619608] (my_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.635631] (my_python_pkg) StdoutLine: {'line': b'Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info\n'}
+[2.706108] (-) TimerEvent: {}
+[2.806612] (-) TimerEvent: {}
+[2.859264] (my_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.906758] (-) TimerEvent: {}
+[2.936835] (my_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/install.log'\n"}
+[2.971836] (my_python_pkg) CommandEnded: {'returncode': 0}
+[3.006863] (-) TimerEvent: {}
+[3.107298] (-) TimerEvent: {}
+[3.192498] (my_python_pkg) JobEnded: {'identifier': 'my_python_pkg', 'rc': 0}
+[3.200693] (-) EventReactorShutdown: {}

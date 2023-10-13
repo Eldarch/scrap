@@ -1,0 +1,35 @@
+[1.615s] Invoking command in '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg': PYTHONPATH=/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/prefix_override:/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build install --record /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/install.log --single-version-externally-managed
+[2.317s] running egg_info
+[2.322s] creating ../../build/my_python_pkg/my_python_pkg.egg-info
+[2.326s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[2.336s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[2.341s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[2.346s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[2.349s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[2.355s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.382s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.433s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.436s] running build
+[2.437s] running build_py
+[2.442s] creating /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build
+[2.443s] creating /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build/lib
+[2.446s] creating /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build/lib/my_python_pkg
+[2.454s] copying my_python_pkg/__init__.py -> /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build/lib/my_python_pkg
+[2.466s] running install
+[2.467s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.467s]   warnings.warn(
+[2.468s] running install_lib
+[2.486s] creating /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg
+[2.502s] copying /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build/lib/my_python_pkg/__init__.py -> /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg
+[2.534s] byte-compiling /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg/__init__.py to __init__.cpython-310.pyc
+[2.563s] running install_data
+[2.571s] creating /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/ament_index
+[2.573s] creating /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/ament_index/resource_index
+[2.575s] creating /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/ament_index/resource_index/packages
+[2.584s] copying resource/my_python_pkg -> /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/ament_index/resource_index/packages
+[2.606s] copying package.xml -> /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg
+[2.617s] running install_egg_info
+[2.633s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages/my_python_pkg-0.0.0-py3.10.egg-info
+[2.856s] running install_scripts
+[2.934s] writing list of installed files to '/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/install.log'
+[2.970s] Invoked command in '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg' returned '0': PYTHONPATH=/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/prefix_override:/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build install --record /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/install.log --single-version-externally-managed

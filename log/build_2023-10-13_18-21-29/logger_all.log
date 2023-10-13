@@ -1,0 +1,209 @@
+[0.368s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.369s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f1a30ebd1e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1a31681930>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1a31681930>>, mixin_verb=('build',))
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.423s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mines/mines_ws/captureData/scrap'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_collect_pointclouds) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'pkg_collect_pointclouds' with type 'ros.ament_cmake' and name 'pkg_collect_pointclouds'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) ignored
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) ignored
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) ignored
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/my_python_pkg) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/my_python_pkg' with type 'ros.ament_python' and name 'my_python_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'my_python_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'my_python_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mines/mines_ws/captureData/scrap/build/my_python_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg', 'merge_install': False, 'path': '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'pkg_collect_pointclouds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_collect_pointclouds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds', 'merge_install': False, 'path': '/home/mines/mines_ws/captureData/scrap/pkg_collect_pointclouds', 'symlink_install': False, 'test_result_base': None}
+[0.588s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.593s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg' with build type 'ament_python'
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_pkg', 'ament_prefix_path')
+[0.601s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/hook/ament_prefix_path.sh'
+[0.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.694s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mines/mines_ws/captureData/scrap/pkg_collect_pointclouds' with build type 'ament_cmake'
+[0.695s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mines/mines_ws/captureData/scrap/pkg_collect_pointclouds'
+[0.697s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.697s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.069s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg'
+[1.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds -- -j4 -l4
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds -- -j4 -l4
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds
+[1.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_collect_pointclouds)
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mines/mines_ws/captureData/scrap/build/pkg_collect_pointclouds
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds' for CMake module files
+[1.738s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds' for CMake config files
+[1.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_collect_pointclouds', 'cmake_prefix_path')
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/hook/cmake_prefix_path.ps1'
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/hook/cmake_prefix_path.dsv'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/hook/cmake_prefix_path.sh'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/bin'
+[1.836s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/lib/pkgconfig/pkg_collect_pointclouds.pc'
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/lib/python3.10/site-packages'
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/bin'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.ps1'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.dsv'
+[1.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.sh'
+[1.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.bash'
+[1.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.zsh'
+[1.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/colcon-core/packages/pkg_collect_pointclouds)
+[1.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_collect_pointclouds)
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds' for CMake module files
+[2.010s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds' for CMake config files
+[2.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_collect_pointclouds', 'cmake_prefix_path')
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/hook/cmake_prefix_path.ps1'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/hook/cmake_prefix_path.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/hook/cmake_prefix_path.sh'
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/bin'
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/lib/pkgconfig/pkg_collect_pointclouds.pc'
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/lib/python3.10/site-packages'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/bin'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.ps1'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.dsv'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.sh'
+[2.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.bash'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/pkg_collect_pointclouds/package.zsh'
+[2.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mines/mines_ws/captureData/scrap/install/pkg_collect_pointclouds/share/colcon-core/packages/pkg_collect_pointclouds)
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg': PYTHONPATH=/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/prefix_override:/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build install --record /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/install.log --single-version-externally-managed
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg' for CMake module files
+[3.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mines/mines_ws/captureData/scrap/ros2_ws/my_python_pkg' returned '0': PYTHONPATH=/home/mines/mines_ws/captureData/scrap/build/my_python_pkg/prefix_override:/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/build install --record /home/mines/mines_ws/captureData/scrap/build/my_python_pkg/install.log --single-version-externally-managed
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg' for CMake config files
+[3.665s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib'
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/bin'
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/pkgconfig/my_python_pkg.pc'
+[3.672s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/lib/python3.10/site-packages'
+[3.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_pkg', 'pythonpath')
+[3.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.ps1'
+[3.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.dsv'
+[3.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/hook/pythonpath.sh'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/bin'
+[3.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_python_pkg)
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/package.ps1'
+[3.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/package.dsv'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/package.sh'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/package.bash'
+[3.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/my_python_pkg/package.zsh'
+[3.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mines/mines_ws/captureData/scrap/install/my_python_pkg/share/colcon-core/packages/my_python_pkg)
+[3.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.788s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.805s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.805s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.806s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.808s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.808s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mines/mines_ws/captureData/scrap/install/local_setup.ps1'
+[3.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mines/mines_ws/captureData/scrap/install/_local_setup_util_ps1.py'
+[3.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mines/mines_ws/captureData/scrap/install/setup.ps1'
+[3.840s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mines/mines_ws/captureData/scrap/install/local_setup.sh'
+[3.846s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mines/mines_ws/captureData/scrap/install/_local_setup_util_sh.py'
+[3.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mines/mines_ws/captureData/scrap/install/setup.sh'
+[3.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mines/mines_ws/captureData/scrap/install/local_setup.bash'
+[3.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mines/mines_ws/captureData/scrap/install/setup.bash'
+[3.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mines/mines_ws/captureData/scrap/install/local_setup.zsh'
+[3.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mines/mines_ws/captureData/scrap/install/setup.zsh'
