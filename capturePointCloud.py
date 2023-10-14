@@ -4,7 +4,6 @@ import rclpy
 from rclpy.node import Node
 import pcl
 from sensor_msgs.msg import PointCloud2
-from pcl import PointCloud
 
 class CapturePointCloud(Node):
 
@@ -30,6 +29,7 @@ class CapturePointCloud(Node):
             self.captured = True
 
 def main(args=None):
+    print("hi")
     rclpy.init(args=args)
     node = CapturePointCloud()
     rclpy.spin(node)
