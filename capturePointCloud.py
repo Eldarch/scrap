@@ -4,6 +4,7 @@ import rclpy
 from rclpy.node import Node
 import pcl
 from sensor_msgs.msg import PointCloud2
+import numpy as np
 
 class CapturePointCloud(Node):
 
@@ -20,7 +21,11 @@ class CapturePointCloud(Node):
     def point_cloud_callback(self, msg):
         if not self.captured:
             # Convert the PointCloud2 message to a PCL point cloud
+            print("hi")
+            p = pcl.PointCloud(np.array([[1, 2, 3], [3, 4, 5]], dtype=np.float32))
+            print("by")
             point_cloud = pcl.PointCloud()
+            print("guy")
             pcl_msg = pcl.create_cloud_xyz32(point_cloud.header, msg.data)
 
             # Save the PCL point cloud to a PCD file
@@ -29,7 +34,6 @@ class CapturePointCloud(Node):
             self.captured = True
 
 def main(args=None):
-    print("hi")
     rclpy.init(args=args)
     node = CapturePointCloud()
     rclpy.spin(node)
